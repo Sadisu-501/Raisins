@@ -1,0 +1,40 @@
+.logo {
+font-family: 'Courier New', Courier, monospace;
+font-size: 22px;
+font-weight: bold;
+color: red;
+}
+body {
+    background-image: url("css/img/orange.jpg");
+    background-size: cover;
+    width: 99%;
+    height: 99%;
+}
+
+*{
+    padding: 0
+    margin: 0;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+.nav {
+    position: relative;
+    right: -10;
+}
+a {
+    padding: 5px;
+    text-decoration:none;
+    font-size: 20px;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+.text {
+    font-family:;
+}
