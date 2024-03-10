@@ -1,0 +1,11 @@
+* {
+ background-image: url(/img/leaf.jpg.png);
+background-repeat: no-repeat;
+background-size: calc(50%border-box)
+ background-clip: 
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .nav{
+    
+  }

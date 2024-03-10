@@ -1,40 +1,74 @@
-.logo {
-font-family: 'Courier New', Courier, monospace;
-font-size: 22px;
-font-weight: bold;
-color: red;
+* {
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-body {
-    background-image: url("css/img/orange.jpg");
-    background-size: cover;
-    width: 99%;
-    height: 99%;
+.nav-container {
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-*{
-    padding: 0
-    margin: 0;
-}
 .top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 40px;
+  color: #ff0404;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  padding: 25px;
+  font-size: 20px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 2px;
 }
-.nav {
-    position: relative;
-    right: -10;
+.top a {
+  text-decoration: none;
+  color: #ff0404;
 }
-a {
-    padding: 5px;
-    text-decoration:none;
-    font-size: 20px;
-}
-a:hover {
-    color: black;
-    text-decoration: underline;
+.top :hover {
+  color: rgb(26, 5, 16);
 }
 .text {
-    font-family:;
+  border-top: 20px;
+  padding: 25px 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.food-1 {
+  font-size: 15px;
+  background-color: rgb(255, 255, 0);
+}
+.food-1 h2 {
+  border: 1px solid black;
+  border-bottom: 20px;
+  border-top: 20px;
+  display: flex;
+  align-items: center;
+  color: #ff0404;
+  justify-content: center;
+}
+.food-1 img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+}
+.nav a {
+  display: inline-flex;
+}
+.top .logo {
+  font-size: 25px;
+}
+.body-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.text button {
+  background-color: rgb(253, 253, 0);
+  color: #ff0404;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid rgb(36, 35, 35);
+  border-radius: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 2px;
 }
