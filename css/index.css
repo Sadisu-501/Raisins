@@ -3,7 +3,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .nav-container {
-  background-size: cover;
+  background-color: rgb(255, 255, 0);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -37,38 +37,39 @@
   background-color: rgb(255, 255, 0);
 }
 .food-1 h2 {
-  border: 1px solid black;
+  padding: 2px 0px;
+  margin: 0px 10px;
+  border: 400px solid #ff0404;
   border-bottom: 20px;
-  border-top: 20px;
+  border-top: 5px;
   display: flex;
   align-items: center;
-  color: #ff0404;
+  color: #0c0c0c;
   justify-content: center;
+  text-decoration: underline;
 }
 .food-1 img {
   height: 200px;
   width: 200px;
   border-radius: 10%;
 }
-.nav a {
+.nav-bar a {
   display: inline-flex;
+  padding-bottom: 15;
 }
 .top .logo {
   font-size: 25px;
-}
-.body-container {
-  display: flex;
-  flex-direction: column-reverse;
-}
-.text button {
-  background-color: rgb(253, 253, 0);
-  color: #ff0404;
-  padding: 10px;
-  width: 200px;
-  border: 1px solid rgb(36, 35, 35);
-  border-radius: 50px;
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
   letter-spacing: 2px;
+  font-weight: bolder;
+  padding-bottom: 15;
+}
+.food-1 button {
+  background-color: none;
+  color: #ff0404;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.food-1 strong {
+  font-size: 20px;
 }
